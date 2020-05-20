@@ -1,0 +1,66 @@
+body {
+    font-family: 'Baloo 2', cursive;
+    background-color: rgb(247,242,242);
+}
+
+#main{
+    text-decoration: underline;
+}
+
+#pomodoro-container{
+    border:1px solid #333;
+    border-radius: 20px;
+    width: auto;
+    margin: 10px auto;
+    padding: 10px;
+    text-align:center;
+    background : #333;
+}
+
+.chalk {
+    background-color:#FFFEF2;
+    border: none;
+    border-radius: 20px;
+    color:#333;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+  
+#timer{ 
+    color: #FFFEF2; 
+    font-size:50px;
+    font-weight: 700; 
+    margin:20px auto;
+    border : 10px solid #FFFEF2;
+    border-radius:50%;
+    width:300px;
+    height:300px;
+    overflow:hidden;
+    position:relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+}
+  
+#time{
+    margin-top:100px;
+    z-index : 1;
+    position:relative;
+    font-size: larger;
+}
+  
+#filler{
+    background : #ddffcc;
+    height: 0px;
+    width: 200px;
+    position:absolute;
+    bottom:0;
+}
+  

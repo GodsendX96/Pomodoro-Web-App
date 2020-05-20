@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <title>Super Pomodoro</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+
+  <!-- The Pomodoro Timer -->
+
+
+    <div class = "m-1" id="pomodoro-app">
+      <div class = "shadow" id="pomodoro-container">
+        <div id="timer">
+          <div id="time">
+            <span id="minutes">25</span>
+            <span id="colon">:</span>
+            <span id="seconds">00</span>
+          </div>
+          <div id="filler"></div>
+        </div>
+        
+        <h1 id= "main" class = "mt-2 text-white"><strong>SUPER POMODORO</strong></h1>
+
+        <div id="buttons">
+          <button class ="chalk btn mt-2 btn-primary" id="work">25:00 min</button>
+          <button class ="chalk btn mt-2 btn-success" id="shortBreak">5:00 min</button>
+          <button class ="chalk btn mt-2 btn-info" id="longBreak">15:00 min</button>
+          <button class ="chalk btn mt-2 btn-danger" id="stop">Stop</button>
+        </div>
+      </div>
+    </div>
+
+  <!-- Info -->
+
+  <div class="row m-4">
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card shadow h-auto">
+        <a href="#"><img class="card-img-top" src="images/Tomato.jpg" alt=""></a>
+        <div class="card-body">
+          <h3 class="card-title">
+            <em><strong>About Pomodoro</strong></em>
+          </h3>
+          <p class="lead text-muted mb-2">What's <em>Pomodoro?</em></p>
+          <p class="card-text">Pomodoro is a time management technique that relies on using a timer to break up work into 25 minute segments accompanied by 5 minute breaks; after 4 <strong><em>"Pomodoros"</em></strong> you take a longer break, usually between 15 to 30 minutes long. The technique was developed and popularized by the famous author <strong><em>Francesco Cirillo</em></strong> in the late 80s. The word <strong><em>"Pomodoro"</em></strong> comes from the italian term for tomato! Cirillo came up with the name back when he used a tomato-shaped timer during his college days!</p>
+          <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank"  class="btn btn-info">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card shadow h-auto">
+        <a href="#"><img class="card-img-top" src="images/Lightbulb.jpg" alt=""></a>
+        <div class="card-body">
+          <h3 class="card-title">
+            <em><strong>How-To Pomodoro</strong></em>
+          </h3>
+          <p class="lead text-muted mb-2">It's <em>easy</em>, I promise!</p>
+          <p class = "card-text">To Pomodoro you simply...</p>
+          <ol>
+            <li class = "mb-2">Choose a task you want to pomodoro</li>
+            <li class = "mb-2">Start first pomodoro <span class = "text-muted">(25 mins)</span></li>
+            <li class = "mb-2">Take a short break <span class = "text-muted">(5 mins)</span></li>
+            <li class = "mb-2">After 4 pomodoros do a long break <span class ="text-muted">(15 mins)</span></li>
+            <li class = "mb-2"><strong>Repeat!!!</strong> <span class ="text-muted">(You'll get used to it!)</span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card shadow h-auto">
+        <a href="#"><img class="card-img-top" src="images/Clock.jpg" alt=""></a>
+        <div class="card-body">
+          <h3 class="card-title">
+            <strong><em>Why Pomodoro</em></strong>
+          </h3>
+          <p class="lead text-muted mb-2">How useful is pomodoro <em>really</em>?</p>
+          <p class="card-text">In a modern society such as ours, it is important to keep track of our work whether we're trying to get our homework done or finally do that project our bosses wanted us to start a <strong><em>week</em></strong> ago! <strong>Pomodoro</strong> helps us complete our tasks in a timely matter without stressing ourselves out. It also teachs us to take breaks often and helps us stay focused when we <em>really</em> need to be! Plus it feels a lot more rewarding knowing that you broke down such large projects into <em><strong>bite-size</strong></em> chunks! Well, at least that's how I feel about it anyway..</p>
+        </div>
+      </div>
+    </div>
+
+  <!-- Pomodoro JS -->
+  <script src="js/script.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
